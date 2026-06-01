@@ -8,7 +8,7 @@ class GradeManagerTest {
     @Test
     void testStudentAverage() {
         Student s = new Student("Test", new double[]{10, 20, 15});
-        assertEquals(15.0, s.getAverage(), 0.01);
+        assertEquals(99.0, s.getAverage(), 0.01);
     }
 
     @Test
